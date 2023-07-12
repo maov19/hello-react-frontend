@@ -1,11 +1,21 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 
 const Greeting = () => {
+  const greeting = useSelector((state) => state.greeting);
+
+  let greetingContent;
+
+  if (typeof greeting === 'object') {
+    greetingContent = greeting?.greeting;
+  } else {
+    greetingContent = greeting;
+  }
+
   return (
-    <div>
-      <h1>Welcome!</h1>
-      <p>This is a greeting message.</p>
-    </div>
+    <>
+      <p>Random Greeting: {greetingContent}</p>
+    </>
   );
 };
 

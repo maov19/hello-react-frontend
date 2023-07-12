@@ -16,7 +16,7 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Greeting randomGreeting={randomGreeting} />} />      
+        <Route path="/" element={<Greeting randomGreeting={randomGreeting} />} />
       </Routes>
     </>
   );

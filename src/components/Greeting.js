@@ -14,7 +14,10 @@ const Greeting = () => {
 
   return (
     <>
-      <p>Random Greeting: {greetingContent}</p>
+      <p>
+        Random Greeting:
+        {greetingContent}
+      </p>
     </>
   );
 };

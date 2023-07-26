@@ -66,7 +66,7 @@ In order to run this project you need: any web-browser.
 
 ### Setup
 
-This API is consumed by its front-end counterpart [front-end](https://github.com/maov19/hello-react-back-end)
+This API is consumed by its front-end counterpart [back-end](https://github.com/maov19/hello-react-back-end)
 
 
 Clone this [repo](https://github.com/maov19/hello-react-frontend) to your desired folder.
